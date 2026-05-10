@@ -1,9 +1,5 @@
 {
-  "schema_version": "2026-03-05",
-  "generated_utc": "2026-05-09T22:39:08Z",
-  "lane": "manifold_constrained",
   "baseline_certificate_path": "repro/certificate_baseline.json",
-  "runtime_certificate_path": "repro/certificate_runtime.json",
   "files": [
     {
       "path": "CITATION.cff",
@@ -15,7 +11,7 @@
     },
     {
       "path": "artifacts/constants_extracted.json",
-      "sha256": "11250104238a1cd717e2baa49512e1986a8712f22f4999e1bfab79c95b8888f1"
+      "sha256": "e58b3c93a568ad93ce3f2259c10d21fe4859e3c4cc085f69d7c9c4496fdc5179"
     },
     {
       "path": "artifacts/constants_extraction_inputs.json",
@@ -23,11 +19,11 @@
     },
     {
       "path": "artifacts/constants_registry.json",
-      "sha256": "052e2238b996470f6161637e9b7b83fea77ace30219c214f7731ba334e5dcb44"
+      "sha256": "f355a1d86ad46230e75af584a41ad7e02ce1a460097867798ccbef1c50e8ea29"
     },
     {
       "path": "artifacts/promotion_report.json",
-      "sha256": "7345473b4f38909dee3dd22beae0ce43a0f0d859a61087bf01b2516eff911e77"
+      "sha256": "4df704fe5712c0b455e8f2081d4cbc9622d801dd55c0d58785e6e1e7db5b5d90"
     },
     {
       "path": "artifacts/stitch_constants.json",
@@ -83,11 +79,11 @@
     },
     {
       "path": "scripts/extract_constants.py",
-      "sha256": "61775512903af1abf2a430f74f06797352ca655833bd69fe66b2d89b8c261b6e"
+      "sha256": "730d57dae3fac057e19630db34233183cae269568d43118c943387970081896d"
     },
     {
       "path": "scripts/promote_constants.py",
-      "sha256": "c13fe0f68b0737a319c9feff0e196108b9a49d8acc5ad817f8ae62597c8bc13c"
+      "sha256": "b65eb7a60552c668f04d6331a5256fe4e662ae5e83e769d42f6a141819769356"
     },
     {
       "path": "scripts/release_gate.py",
@@ -95,7 +91,7 @@
     },
     {
       "path": "scripts/update_manifest.py",
-      "sha256": "6cee83954c38d792f86564334a5e93750a9842afe569fb4685a3f47def392352"
+      "sha256": "45ae03f10349daebab98b6eb9a0836b7e2d15a48ca5504277c80ec7d4c633d12"
     },
     {
       "path": "scripts/lta_closure_guard.py",
@@ -105,5 +101,9 @@
       "path": "scripts/README.md",
       "sha256": "db25e091c15699e44682f49a9d1293f577f79ef93ce5ceb124ccbbb105d6ab55"
     }
-  ]
+  ],
+  "generated_utc": "2026-05-10T05:21:12Z",
+  "lane": "manifold_constrained",
+  "runtime_certificate_path": "repro/certificate_runtime.json",
+  "schema_version": "2026-03-05"
 }
