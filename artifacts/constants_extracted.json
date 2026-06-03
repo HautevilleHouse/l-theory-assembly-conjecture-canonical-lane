@@ -1,0 +1,171 @@
+{
+  "constants": {
+    "assembly_transfer": {
+      "components": {
+        "c_transfer_raw": 1.118,
+        "e_transfer_raw": 0.121,
+        "transfer_gain_raw": 1.029
+      },
+      "formula": "c_transfer_raw * transfer_gain_raw - e_transfer_raw",
+      "normalized_value": 1.029422,
+      "notes": "assembly_transfer theorem-level floor.",
+      "raw_value": 1.029422,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/L_THEORY_ASSEMBLY_CONJECTURE_PREPRINT.md Section 6.2 / Appendix E.4",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "eps_coh": {
+      "components": {
+        "eps_coh_raw": 0.0
+      },
+      "formula": "eps_coh_raw",
+      "normalized_value": 0.0,
+      "notes": "Strict coherence target.",
+      "raw_value": 0.0,
+      "reference": 1.0,
+      "required_nonnegative": true,
+      "required_positive": false,
+      "source_section": "paper/L_THEORY_ASSEMBLY_CONJECTURE_PREPRINT.md Appendix E.6",
+      "status": "derived_numeric",
+      "strict_zero": true,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "kappa_assembly": {
+      "components": {
+        "assembly_density_raw": 0.916,
+        "c_assembly_raw": 1.451,
+        "e_assembly_raw": 0.235
+      },
+      "formula": "c_assembly_raw * assembly_density_raw - e_assembly_raw",
+      "normalized_value": 1.094116,
+      "notes": "kappa_assembly theorem-level floor.",
+      "raw_value": 1.094116,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/L_THEORY_ASSEMBLY_CONJECTURE_PREPRINT.md Section 4.5 / Appendix A",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "kappa_compact": {
+      "components": {
+        "delta_comp_sup_raw": 0.243
+      },
+      "formula": "1.0 / (1.0 + delta_comp_sup_raw)",
+      "normalized_value": 0.8045052292839904,
+      "notes": "kappa_compact theorem-level floor.",
+      "raw_value": 0.8045052292839904,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/L_THEORY_ASSEMBLY_CONJECTURE_PREPRINT.md Section 5.3 / Appendix C",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "rho_rigidity": {
+      "components": {
+        "rho_rigidity_raw": 1.078
+      },
+      "formula": "rho_rigidity_raw",
+      "normalized_value": 1.078,
+      "notes": "rho_rigidity theorem-level floor.",
+      "raw_value": 1.078,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/L_THEORY_ASSEMBLY_CONJECTURE_PREPRINT.md Section 6.1 / Appendix D",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "sigma_quadratic": {
+      "components": {
+        "assembly_loss_raw": 0.168,
+        "quadratic_floor_raw": 1.391,
+        "restart_loss_raw": 0.149
+      },
+      "formula": "quadratic_floor_raw - assembly_loss_raw - restart_loss_raw",
+      "normalized_value": 1.074,
+      "notes": "sigma_quadratic theorem-level floor.",
+      "raw_value": 1.074,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/L_THEORY_ASSEMBLY_CONJECTURE_PREPRINT.md Section 5.2 / Appendix B",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    }
+  },
+  "framework": "l_theory_assembly_conjecture",
+  "generated_utc": "2026-03-13T17:47:52Z",
+  "inputs_path": "artifacts/constants_extraction_inputs.json",
+  "inputs_sha256": "f531c7a7a290e0f1b734d62356bacd2fbb99fc09f6169a76a92ee8f9b26dfd11",
+  "schema_version": "2026-03-05",
+  "stitch": {
+    "sigma_star_can": {
+      "components": {
+        "sigma_star_can_raw": 1.054
+      },
+      "formula": "sigma_star_can_raw",
+      "normalized_value": 1.054,
+      "notes": "sigma_star_can theorem-level stitch constant.",
+      "raw_value": 1.054,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/L_THEORY_ASSEMBLY_CONJECTURE_PREPRINT.md Section 5 / stitch constants",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    }
+  }
+}
