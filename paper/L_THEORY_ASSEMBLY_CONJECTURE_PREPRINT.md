@@ -275,4 +275,4 @@ A reviewer can check this claim on four surfaces:
 
     1. A. Ranicki, *Lower `K`- and `L`-theory*, London Mathematical Society Lecture Note Series 178, Cambridge Univ. Press, 1992. DOI: `10.1017/CBO9780511526329`
 2. J. F. Davis and W. Lück, *Spaces over a category and assembly maps in isomorphism conjectures in `K`- and `L`-theory*, K-Theory 15 (1998), 201-252.
-3. A. Bartels and W. Lück, surveys on the Farrell-Jones conjecture and assembly in `L`-theory.
+3. A. Bartels, W. Lück, and H. Reich, *On the Farrell-Jones Conjecture and its applications*, J. Topol. 1 (2008), 57-86. DOI: `10.1112/jtopol/jtm008`
