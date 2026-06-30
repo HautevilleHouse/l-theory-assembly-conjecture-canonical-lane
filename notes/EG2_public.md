@@ -1,6 +1,42 @@
-# EG2 Public Note
+# EG2 Public Note (Capture and Restart)
 
-Gate: `LTA_G2`
-Constant: `sigma_quadratic`
+Mature wording: `transport / local-to-global transfer`.
 
-This note records the capture inequality. The admissible defect ledger stays above the tracked floor once explicit loss terms are subtracted and the restart map preserves admissibility.
+In-paper anchor: `paper/L_THEORY_ASSEMBLY_CONJECTURE_PREPRINT.md` (`LTA_G2`).
+
+## Goal
+Expand the compressed capture/restart language into the local-to-global transport gate for `proving assembly persistence for quadratic signatures and L-theory spectra through an admissible assembly closure architecture`.
+
+## Objects
+
+- transport carrier: the admissible evolution, deformation, or routed lattice declared in the preprint.
+- capture floor: `sigma_quadratic`.
+- restart law: the normalization/re-entry rule that keeps corrective steps inside the admissible class.
+- carried losses: defect, restart, and normalization losses that must remain explicit.
+
+## Closure Criterion
+
+`LTA_G2` closes when `sigma_quadratic` survives admissible losses and restart corrections: quadratic-signature defect stays above capture floor across admissible assembly losses.
+This is the transport contribution to `M_LTA`.
+
+## Lemma Chain and Proof Payload
+
+### Lemma EG2.1 (transport accounting)
+Every transport step used by the lane is charged to the declared defect ledger instead of being absorbed into prose.
+
+Payload: verify that the capture constant `sigma_quadratic` is present in the constants registry and extraction inputs.
+
+### Lemma EG2.2 (restart preservation)
+Restart or normalization preserves the declared admissible class and does not create an untracked remainder.
+
+Payload: inspect the repro script and guard output for the gate tied to `sigma_quadratic`.
+
+### Theorem EG2.3 (capture gate closure)
+If transport accounting and restart preservation hold, then `LTA_G2` carries local control forward without breaking admissibility.
+
+## Current Instantiation
+
+- gate: `LTA_G2`
+- artifact key: `sigma_quadratic`
+- mature equivalent: `transport / local-to-global transfer`
+- audit surface: `repro/run_repro.sh` and `repro/certificate_runtime.json`
